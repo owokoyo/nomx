@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "jsx": "react",
+    "jsxFactory": "Nomx.create",
+    "lib": [
+      "es5",
+      "ES2015.Iterable"
+    ],
+    "typeRoots": [
+      "./workspace/types"
+    ],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  }
+}
